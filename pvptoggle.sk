@@ -1,0 +1,28 @@
+command /pvpoff:
+	description: &0[&6PvPToggle&0]&0 Do /pvphelp for commands
+	trigger:
+		disable PvP #(current world only)
+		message "&0[&6PvPToggle&0]&0PvP has been disabled in this world!"
+command /pvpon:
+	description: &0[&6PvPToggle&0]&0 Do /pvphelp for commands
+	trigger:
+		enable PvP #(current world only)
+		message "&0[&6PvPToggle&0]&6PvP has been enabled in this world!"
+ command /pvponall:
+	description: &0[&6PvPToggle&0]&0Do /pvphelp for commands
+	trigger:
+		enable PvP in all worlds
+		message "&0[&6PvPToggle&0]&0PvP has been enabled in all worlds!"
+ command /pvpoffall:
+	description: &0[&6PvPToggle&0]&0Do /pvphelp for commands
+	trigger:
+		disable PvP in all worlds
+ 		message "&0[&6PvPToggle&0]&0PvP has been disabled in all worlds!"
+command /pvphelp:
+	description: &0[&6PvPToggle&0]&0Do /pvphelp for commands
+	trigger:
+		message "&0[&6PvPToggle&0]&0Do /pvpoff to turn pvp off, and do /pvpon to turn it on again. /pvp shows info about this plugin. "		
+command /pvp:
+	description: &0[&6PvPToggle&0]&0Do /pvphelp for commands
+	trigger:
+		message "&0[&6PvPToggle&0]&0A Skript plugin made by XDerpyGamerX. Do /pvphelp for a list of commands."		
