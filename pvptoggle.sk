@@ -4,7 +4,7 @@ command /pvpoff:
 		disable PvP #(current world only)
 		message "&0[&6PvPToggle&0]&0PvP has been disabled in this world!"
 command /pvpon:
-	description: &0[&6PvPToggle&0]&0 Do /pvphelp for commands
+	description: &0[&6PvPToggle&0] Do /pvphelp for commands
 	trigger:
 		enable PvP #(current world only)
 		message "&0[&6PvPToggle&0]&6PvP has been enabled in this world!"
